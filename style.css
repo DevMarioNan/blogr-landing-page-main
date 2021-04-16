@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(to right,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    overflow: hidden;
+    border-radius: 0 0 0 4rem;
+    z-index: 0;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    margin-left: 10rem;
+    margin-top: 2.7rem;
+}
+header ul li img{
+    width: 10px;
+    margin-left: 0.29rem;
+    margin-top: 0;
+    
+}
+nav{
+    display: inline-block;
+    margin-left: 21rem; 
+    margin-top: 3.5rem;
+    
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px; 
+    color: white;
+}
+.header-photo{
+    position: absolute;
+    width: 2200px;
+    top: -60rem;
+    left: 30rem;
+    z-index: -1;
+}
+button{
+    outline: none;
+}
+.login{
+    background-color: transparent;
+    
+    display: inline;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup{
+    display: inline;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:white;
+    border: black;
+    color: hsl(353, 100%, 62%);
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+}
+.login-buttons{
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    width: 15%;
+    margin-top: 2.7rem;
+    left: 90%;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.product-dropdown{
+    display: inline-block;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 20rem;
+    top: 5rem;
+    z-index: 1;
+}
+.product-dropdown a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.company-dropdown{
+    display: inline-block;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 26.5rem;
+    top: 5rem;
+    z-index: 1;
+}
+.company-dropdown a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.connect-dropdown{
+    display: inline-block;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    
+    left: 32rem;
+    top: 5rem;
+    z-index: 1;
+}
+.connect-dropdown a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.show{
+    display: block;
+}
+nav ul li div a:hover{
+    font-weight: bold;
+}
+
+header h1{
+    margin-top:6rem ;
+    font-size: 70px;
+    text-align:center;
+    color: white;
+}
+
+header p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 25px;
+    color: white;
+}
+
+.header-btn{
+    margin-top: 4rem; ;
+    text-align: center;
+}
+.start{
+    margin-right: 2rem;
+    width: 120px;
+    height: 50px;
+    border-radius: 60px;
+    background-color:white;
+    border: black;
+    color: hsl(353, 100%, 62%);
+    cursor: pointer;
+}
+
+.start:hover{
+    background-color: rgba(255, 255, 255, 0.20  );
+    color: white;
+}
+
+.learn{
+    width: 120px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+}
+
+.learn:hover{
+    color: hsl(353, 100%, 62%);
+    background-color:white;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+.section-1{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 1150px;
+    overflow: hidden;
+}
+
+.section-1 h1{
+    margin-top: 6rem;
+    font-size: 60px ;
+}
+
+.section-1 img{
+    position: absolute;
+    right: -17rem;
+    width: 1000px;
+    top: 10rem;
+    
+    
+}
+.subheadings h2{
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    font-size: 40px;
+}
+
+.subheadings p{
+    font-size: 25px;
+    width: 40%;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    color: gray;
+    
+}
+.subheadings{
+    text-align: left;
+    margin-top: 15rem;
+}
+
+
+.subheading-2{
+    margin-top: -5rem;
+}
+
+.section-2-box{
+    width: 100%;
+    height: 420px;
+    background:linear-gradient(to right,hsl(237, 17%, 21%),hsl(237, 23%, 32%)) ;
+    border-radius: 0 4rem 0 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-2-bg-img{
+    position: absolute;
+    top: -35rem;
+    left: -14rem;
+}
+
+.section-2-phones{
+    position: absolute;
+    top:100rem;
+}
+.section-2-heading{
+    color:white;
+    margin-left: 60rem;
+    margin-top: 5rem;
+    font-size: 60px;
+    
+}
+.section-2 p{
+    color: white;
+    width: 700px;
+    margin-left: 60rem;
+    font-size: 28px;
+    color: white;
+    margin-top: 2rem;
+    
+}
+
+.section-3{
+    position: relative;
+    height: 1500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-3 img{
+    position: absolute;
+    width: 1300px;
+    left: -23rem;
+    top: 20%;
+}
+
+.section-3 div{
+    width: 50%;
+    margin-left: 55rem;
+    margin-top: 36rem;
+}
+.section-3 div h2{
+    font-size: 50px;
+    margin: 2rem;
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.section-3 div p{
+    font-size: 20px;
+    width: 70%; 
+    margin-left: 2rem;
+}
+
+footer{
+    float: left;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    border-radius:0 100px 0 0;
+}
+footer img{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.products{
+    margin-left:40rem;
+    color: white;
+}
+
+.products
+{
+    display: inline-block;
+    margin-top:4rem;
+    margin-left:60rem;
+    color: white;
+}
+.products h2{
+    margin-top: 0;
+}
+.products a{
+    display: block;
+    margin-top:1.5rem;
+}
+
+.company
+{
+    position: absolute;
+    display: inline-block;
+    margin-top:6rem;
+    margin-left: 10rem; ;
+    color: white;
+}
+
+.company h2{
+    margin-top: -2rem;
+}
+
+.company a{
+    display: block;
+    margin-top:1.5rem;
+}
+
+.connect
+{
+    position: absolute;
+    display: inline-block;
+    margin-top:6rem;
+    margin-left: 25rem; ;
+    color: white;
+}
+
+.connect h2{
+    margin-top: -2rem;
+}
+
+.connect a{
+    display: block;
+    margin-top:1.5rem;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
